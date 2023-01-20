@@ -1,20 +1,20 @@
 ---
-title: "Head First Java 5th Edition Review"
+title: "Head First Java 3rd Edition Review"
 classes: wide
 header:
   teaser: /assets/images/Blogs/Books-Review/Head-First-Java.png
 ribbon: ForestGreen
-description: "Reviewing Head First Java 5th Edition Book"
+description: "Reviewing Head First Java 3rd Edition Book"
 categories:
   - Books Review
 toc: false
 ---
 
-Hello world, Hossam is here, Welcome to my first post of its kind in reviewing technical books. in this post I'll talk about a great book i was reading for a while "Head First Java 5th edition". 
+Hello world, Hossam is here, Welcome to my first post of its kind in reviewing technical books. in this post I'll talk about a great book i was reading for a while "Head First Java 3rd edition". 
 
 # About the book
 
-Head First Java, 5th Edition is a comprehensive and user-friendly guide to the world of Java programming. Written by `Kathy Sierra`, `Bert Bates`, and `Trisha Gee`.
+Head First Java, 3rd Edition is a comprehensive and user-friendly guide to the world of Java programming. Written by `Kathy Sierra`, `Bert Bates`, and `Trisha Gee`.
 
 The book begins with an overview of the fundamental concepts of Java, including variables, classes, objects, and methods. Then it continues on to more complicated subjects like GUI programming, networking, and other things.
 
@@ -61,6 +61,6 @@ I also like their good use of illustrations, sometimes funny, like the one below
 
 ![Pasted image 20230104002246](https://user-images.githubusercontent.com/60070427/210452123-eaac9a55-add7-4b66-a8fe-700718ddf185.png)
 
-Overall, Head First Java 5th Edition is an excellent resource for anyone looking to learn or improve their knowledge of Java programming. It provides a comprehensive overview of the language while also providing plenty of examples and exercises that can help readers gain a better understanding of how it works. Highly recommended!
+Overall, Head First Java 3rd Edition is an excellent resource for anyone looking to learn or improve their knowledge of Java programming. It provides a comprehensive overview of the language while also providing plenty of examples and exercises that can help readers gain a better understanding of how it works. Highly recommended!
 
 At the end of this post i wanna thank [Mr. Muhammad Soliman](http://www.linkedin.com/in/lupate) for recommending this great book that's helped me learn java in an organized, funny, and easy way. 
