@@ -6,10 +6,8 @@ main:
     url: /categories/#graduation-project-diary/
   - title: "Projects"
     url: /categories/#projects/
-  - title: "Cybersecurity"
-    url: /categories/#cybersecurity/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
+  - title: "Zoho"
+    url: /categories/#zoho/
   # - title: "Sitemap"
   #   url: /sitemap/
   # - title: "Quick-Start Guide"
