@@ -18,9 +18,9 @@ minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "
 locale                   : "en-US"
 title                    : "0xGhazy"
 title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
+subtitle                 : "Documentation of my learning journey"
 name                     : "Hossam Hamdy"
-description              : "Software Engineer | Offensive Security"
+description              : "Software Engineer | Zoho Developer"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -95,7 +95,7 @@ analytics:
 author:
   name             : "Hossam Hamdy"
   avatar           : /assets/images/site_data/avatar.png # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Software Engineer & Blogger"
+  bio              : "Software Engineer & Zoho Developer"
   location         : "/dev/null"
   email            : 
   links:
