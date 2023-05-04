@@ -2,11 +2,10 @@
 title: "PyPass - Your Password Manager and Files Vault Application"
 classes: wide
 header:
-  teaser: /assets/images/Blogs/Graduation-Project-Diray/pypass.png
+  teaser: /assets/images/Blogs/Graduation-Project-Diray/pypass_image.png
 ribbon: ForestGreen
 description: "Review the features of PyPass password manager. . ."
 categories:
-  - Graduation Project Diary
   - Projects
 toc: false
 ---
