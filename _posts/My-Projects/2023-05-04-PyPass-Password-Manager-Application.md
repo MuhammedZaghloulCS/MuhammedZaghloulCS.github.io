@@ -2,15 +2,13 @@
 title: "PyPass: Your Password Manager and Files Vault Application"
 classes: wide
 header:
-  teaser: /assets/images/Blogs/Projects/PyPass.png
+  teaser: /assets/images/Blogs/PyPass.png
 ribbon: ForestGreen
-description: "Review the features of PyPass password manager project that I built using Python3 and PyQt5"
+description: "Review the features of PyPass password manager. . ."
 categories:
   - Projects
 toc: false
 ---
-
-<h1 align="center"> بسم الله الرحمن الرحيم </h1>
 
 Hello world, Hossam is here, In this article, I will review the features of a project I have been working on for a while in the past, which is a simple password manager with many features that help me remember and encrypt my traffic cams, as well as encrypt and retrieve files in a simple way.
 
