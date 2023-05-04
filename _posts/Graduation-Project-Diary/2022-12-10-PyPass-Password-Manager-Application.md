@@ -1,12 +1,13 @@
 ---
-title: "PyPass: Your Password Manager and Files Vault Application"
+title: "PyPass - Your Password Manager and Files Vault Application"
 classes: wide
 header:
-  teaser: /assets/images/Blogs/Graduation-Project-Diray/PyPass.png
+  teaser: /assets/images/Blogs/Graduation-Project-Diray/pypass.png
 ribbon: ForestGreen
 description: "Review the features of PyPass password manager. . ."
 categories:
-  - Graduation Project Diary
+  - Graduation Project Diary
+  - Projects
 toc: false
 ---
 
@@ -94,4 +95,3 @@ Since it is an open source application, I am happy to see your opinion and ideas
 Finally I wanna thank some people who contributing on PyPass application
 - [y8l](https://github.com/yusufadell)
 - [Corey](https://github.com/corey-new)
-
