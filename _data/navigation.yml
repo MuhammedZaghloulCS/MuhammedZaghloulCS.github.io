@@ -1,5 +1,7 @@
 # main links
 main:
+  - title: "Notes"
+    url: /categories/#notes/
   - title: "Books Review"
     url: /categories/#books-review/
   - title: "Graduation Project Diary"
@@ -8,7 +10,5 @@ main:
     url: /categories/#projects/
   - title: "Zoho"
     url: /categories/#zoho/
-  # - title: "Sitemap"
-  #   url: /sitemap/
   # - title: "Quick-Start Guide"
   # url: https://google.com
