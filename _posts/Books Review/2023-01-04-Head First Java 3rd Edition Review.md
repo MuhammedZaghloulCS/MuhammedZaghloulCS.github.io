@@ -7,6 +7,9 @@ ribbon: ForestGreen
 description: "Reviewing Head First Java 3rd Edition Book"
 categories:
   - Books Review
+tags:
+  - java
+  - books
 toc: false
 ---
 

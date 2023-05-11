@@ -1,7 +1,7 @@
 # main links
 main:
-  - title: "Notes"
-    url: /categories/#notes/
+  - title: "Learning Notes"
+    url: /categories/#learning-notes/
   - title: "Books Review"
     url: /categories/#books-review/
   - title: "Graduation Project Diary"
