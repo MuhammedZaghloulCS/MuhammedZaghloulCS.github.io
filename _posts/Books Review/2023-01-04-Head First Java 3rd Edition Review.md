@@ -6,11 +6,11 @@ header:
 ribbon: ForestGreen
 description: "Reviewing Head First Java 3rd Edition Book"
 categories:
-  - Books Review
+  - Reviews
 tags:
   - java
   - books
-toc: false
+toc: true
 ---
 
 Hello world, Hossam is here, Welcome to my first post of its kind in reviewing technical books. in this post I'll talk about a great book i was reading for a while "Head First Java 3rd edition". 
