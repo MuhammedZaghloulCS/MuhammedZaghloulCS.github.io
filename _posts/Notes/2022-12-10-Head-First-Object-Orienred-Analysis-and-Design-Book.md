@@ -1,14 +1,13 @@
 ---
-title: "Head First Object Oriented analysis & Design"
+title: "Head First Object Oriented analysis & Design Notes"
 classes: wide
 header:
-  teaser: /assets/images/Blogs/Graduation-Project-Diray/Flask/grad3.png
+  teaser: /assets/images/Blogs/Graduation-Project-Diray/HFOOAD.png
 ribbon: ForestGreen
 description: "Head First OOA&D book notes and reviwe"
 categories:
-  - Learning Notes
-  - Reviews
-toc: true
+  - Learning Notes
+toc: false
 ---
 
 # Chapter 1: Great Software Begins Here
