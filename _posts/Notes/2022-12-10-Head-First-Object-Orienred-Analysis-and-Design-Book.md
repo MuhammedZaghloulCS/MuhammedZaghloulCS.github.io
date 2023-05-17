@@ -108,4 +108,3 @@ With this approach we have a good design because in the future if we wanna add a
 | Encapsulation | You use me to keep the parts of your code that stay the same separate from the parts that change; then it’s really easy to make changes to your code without breaking everything |
 | Design Pattern | I’m all about reuse and making sure you’re not trying to solve a problem that someone else has already figured out. |
 
----
