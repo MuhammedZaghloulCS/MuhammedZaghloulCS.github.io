@@ -51,12 +51,11 @@ public class Guitar {  
  }
  ```
 
-
 The problem is that the client doesn't really care about guitar serial number or price so that he doesn't provide the search method with this information which make the search method doesn't do its job properly because some data members are Null.
 so that we can use the Encapsulation to separate the not necessary data from the Guitar object to a new object used for searching such as *GuitarSpec* that hold all necessary information about the target guitar.
 
-
 The new Guitar Class code: 
+
 ```java
 public class Guitar {  
     private String serialNumber;  
@@ -79,6 +78,7 @@ public class Guitar {  
 ```
 
 The GuitarSpec Class code: 
+
 ```java
 public class GuitarSpec {  
     private Builder builder;  
