@@ -111,3 +111,45 @@ With this approach we have a good design because in the future if we wanna add a
 | Encapsulation | You use me to keep the parts of your code that stay the same separate from the parts that change; then it’s really easy to make changes to your code without breaking everything |
 | Design Pattern | I’m all about reuse and making sure you’re not trying to solve a problem that someone else has already figured out. |
 
+---
+
+# Chapter 02: Gathering Requirements
+
+In this chapter the authors will introduce a simple approach to help you to gather customer requirements with detailed use cases.
+Let’s answer the questions of What is the requirement?
+*Requirement* is a specific thing your system has to do to work correctly. It's about what a particular service should do.
+
+
+### Listen to the customer
+To gather requirements, we need to listen to the customer carefully and pay attention to everything he says about the system wanna have/ or feature wanna add. In listening phase, we care about **what system has to do? ** not **How we'll implement this? **
+
+Focusing on implementation details in this phase is a big mistake that i unfortunately do in meetings. This makes me drop some necessary details in requirements and start thinking about the limitations of used technologies or on the other side start saying "yes it's easy we can implement and deliver this method/feature in 3 hours" but it's not true at all 😩.
+
+
+### Create Requirements List
+
+After we listen to the customer requirements, we need to create a list of them as the image below.
+
+After creating the list, we validate requirements with the customer to make sure that we are all on the same level of understanding of what the system has to do. We can get approval in the best case, and also, we get some comments on the requirements list as a change needed.
+
+Be aware that the happy case doesn't always happen in our real world, so our requirements might have an *alternative paths* that handle the situation when things going wrong and unexpected.
+
+the *Use case* idiom describes what your system does to accomplish a particular customer goal. it provides one or more scenarios that convey how the system should interact with the end-user or another system to achieve a goal.
+
+
+**One great use case is consists of 3 parts:**
+
+| Part | Description |
+|:--:|:--:|
+| Clear value | The use case must have a clear value to our system, if it’s not then the use case isn't of much use |
+| Start and Stop Condition | Each use case mush have a defined starting and ending conditions. when to start and when the process must be ended |
+| External Initiator | Each use case is started by external actor outside the system |
+
+
+The use case must be written in a clear language to be understandable for your customers, managers, and developers’ team. so that the use case doesn't have technical details.
+
+You might think writing use cases is a waste of time and effort, but it's not what you think. Writing use cases helps you to figure out the edge cases and alternative paths that happens when things go wrong. By thinking about coding without take care of well written use cases we just think about happy scenarios only, the use case helps us to be aware of what we might face in the future. Remember that the first step of writing a great software is having satisfied customers.
+
+### Check requirements against use cases
+The last step is to check requirements against use cases, this helps us in validate the requirements and have the green light to start coding 🙂. here we make sure that all gathered requirements are covering all system aspects and functionalities.
+
