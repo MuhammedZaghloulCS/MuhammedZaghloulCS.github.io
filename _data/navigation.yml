@@ -10,5 +10,7 @@ main:
     url: /categories/#projects/
   - title: "Zoho"
     url: /categories/#zoho/
+  - title: "Security"
+    url: /categories/#security/
   # - title: "Quick-Start Guide"
   # url: https://google.com
