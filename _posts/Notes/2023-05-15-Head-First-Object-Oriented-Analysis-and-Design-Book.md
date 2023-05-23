@@ -153,3 +153,16 @@ You might think writing use cases is a waste of time and effort, but it's not wh
 ### Check requirements against use cases
 The last step is to check requirements against use cases, this helps us in validate the requirements and have the green light to start coding 🙂. here we make sure that all gathered requirements are covering all system aspects and functionalities.
 
+---
+
+# Chapter 03: Requirements Change
+
+In this short chapter, the authors introduce the "**Change**" concept in the OOA&D world as it is the only constant. I agree with that change is the only constraint t in our world today.
+
+well-designed use cases help us to implement our requirements after doing some changes easily and quickly as we don't need to worry about unexpected scenarios. so the authors advise us to use our use cases to find out about things our customers forget to tell us.
+
+The steps of your main path in the use case list must be the steps that will happen **most often** in your project, others will be the alternative path. from the start step to the end, we call this path a **scenario**, Most use cases will have several scenarios but they always have the same user goal.
+
+Any time we do changes to our use cases the requirements change too, so after any change, we need to go back to our requirements and check them again. *Change is constant, and your system should always improve every time you work on it.*
+
+---
