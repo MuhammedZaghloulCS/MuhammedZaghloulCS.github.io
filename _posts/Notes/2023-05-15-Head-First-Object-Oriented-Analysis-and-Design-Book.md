@@ -180,13 +180,10 @@ Analysis and your use cases let you show customers, managers, and other develope
 
 Maybe You didn't use cases and still create good software, but it's good to use them to satisfy your customers more often. and it's good to make sure your software does what it's supposed to do.
 
-Pay attention to the nouns in your use case, even when they aren’t classes in your system, because textual analysis helps us with what to focus on, not just what classes you need. in some cases you will found nouns in your use case but it's not really needed to be a class in your system. such as in the following example
+Pay attention to the nouns in your use case, even when they aren’t classes in your system, because textual analysis helps us with what to focus on, not just what classes you need. in some cases you will found nouns in your use case but it's not really needed to be a class in your system. such as in the following example:
 
-<div align="center">
+![](https://github.com/0xGhazy/0xGhazy/assets/60070427/cba12cf2-a91f-4158-a2b8-f12d100be83c)
 
-![Screenshot 2023-05-26 032233](https://github.com/0xGhazy/0xGhazy/assets/60070427/cba12cf2-a91f-4158-a2b8-f12d100be83c)
-
-</div>
 
 in this example we didn't need to create a `Dog` class because we don't need to track the dog we just need its bark sound, or it's not making sense to store the dog in the dog door -*at least for me :)*-, and finally the dog is an external factor from our system.
 
@@ -194,11 +191,7 @@ Pay attention to verbs in your use case, it's usually the methods of the class i
 
 ### Class diagram
 
-<div align="center">
-
-![Screenshot 2023-05-26 032910](https://github.com/0xGhazy/0xGhazy/assets/60070427/a9741a47-72c6-47cb-808b-73763f682457)
-
-</div>
+![](https://github.com/0xGhazy/0xGhazy/assets/60070427/a9741a47-72c6-47cb-808b-73763f682457)
 
 The class diagram contains some information about relationships between classes and inner components such as data members and methods.
 
