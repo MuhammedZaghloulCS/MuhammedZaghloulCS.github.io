@@ -205,3 +205,46 @@ class diagrams aren't everything because it has limited *type* information we do
 at the end of this chapter remember that **rewriting code takes a lot more time than rewriting a use case or redrawing a class diagram**
 
 ---
+
+# Chapter 5: Good design = flexible software
+
+in this chapter authors will revisit the change concept that as we mentioned above its the only constant in our world :). we will talk about how to make your software more flexible and reusable, applays OO principles to achieve cohesion, and more. . .
+
+## Part 1: Nothing Ever Stays the Same
+
+this part of Chapter 5 starts with "The harder you make it for your software to change, the more difficult it’s going to be to respond to your customer’s changing needs.". this part focuses on the change concept and how we can make it achievable by using some OOP techniques.
+
+`Abstract classes` are placeholders for actual implementation classes. we use these classes to define common behaviors that are needed in the classes that will extend the abstract class.
+
+we can't create abstract class instances so we use them in general objects such as in the mentioned example in the book on page 200.
+
+![1](https://github.com/0xGhazy/0xGhazy/assets/60070427/6e1a106f-0137-4bbe-b60f-ed9bdca222ea)
+
+in this example we don't have an `Instrument` object in the real world it's just a placeholder for any kind of musical Instrument that we may need to add in the future.
+
+*Whenever you find common behavior in two or more places, look to abstract that behavior into a class, and then reuse that behavior in the common classes*
+
+abstract classes in the class diagram are denoted as *ClassName* in italics.
+
+aggregation relationship means that one thing is made up of another thing. In this case, an object adds another object, such as a parent object.
+
+One of the best ways to see if the software is well-designed is to try and CHANGE it. trying to change your software will prove that your software is good or not based on the ability to change easily.
+
+**Great software isn’t built in a day** as you working on the project you will always find something to improve, and many problems in design to solve.
+
+
+Coding to an interface, rather than to an implementation, makes your software easier to extend.
+
+![Screenshot 2023-06-08 182037](https://github.com/0xGhazy/0xGhazy/assets/60070427/73a6cd88-39ca-45c4-8e55-07b5eefe563f)
+
+When you run into a choice like this, you should always favor coding to the interface, not the implementation. 
+
+
+By coding to an interface, your code will work with all of the interface’s subclasses even ones that haven’t been created yet. Instead of your code being able to work with only one specific subclass like `BaseballPlayer` you’re able to work with the more generic `Athlete`. That means that your code will work with any subclass of `Athlete`, like `HockeyPlayer` or `TennisPlayer`, and even subclasses that haven’t even been designed yet 🙂.
+
+`Encapsulation` protect your classes from unnecessary changes.
+*Anytime you have behavior in an application that you think is likely to change, you want to move that behavior away from parts of your application that probably won’t change very frequently. In other words, you should always try to encapsulate what varies.* Page 226.
+
+Another thing to make your classes easy to change and not dependent is to have one reason to change, to achieve that you need to make your class do only one thing and do it well.
+
+---
