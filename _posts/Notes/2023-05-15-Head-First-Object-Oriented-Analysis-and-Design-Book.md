@@ -7,7 +7,7 @@ ribbon: ForestGreen
 description: "Head First OOA&D book notes and reviwe"
 categories:
   - Learning Notes
-toc: false
+toc: true
 ---
 
 # Chapter 1: Great Software Begins Here
