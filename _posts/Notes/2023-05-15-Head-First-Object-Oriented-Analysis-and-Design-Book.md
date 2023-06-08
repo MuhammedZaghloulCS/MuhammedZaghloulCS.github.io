@@ -232,13 +232,11 @@ One of the best ways to see if the software is well-designed is to try and CHANG
 
 **Great software isn’t built in a day** as you working on the project you will always find something to improve, and many problems in design to solve.
 
-
 Coding to an interface, rather than to an implementation, makes your software easier to extend.
 
 ![Screenshot 2023-06-08 182037](https://github.com/0xGhazy/0xGhazy/assets/60070427/73a6cd88-39ca-45c4-8e55-07b5eefe563f)
 
 When you run into a choice like this, you should always favor coding to the interface, not the implementation. 
-
 
 By coding to an interface, your code will work with all of the interface’s subclasses even ones that haven’t been created yet. Instead of your code being able to work with only one specific subclass like `BaseballPlayer` you’re able to work with the more generic `Athlete`. That means that your code will work with any subclass of `Athlete`, like `HockeyPlayer` or `TennisPlayer`, and even subclasses that haven’t even been designed yet 🙂.
 
@@ -246,5 +244,53 @@ By coding to an interface, your code will work with all of the interface’s sub
 *Anytime you have behavior in an application that you think is likely to change, you want to move that behavior away from parts of your application that probably won’t change very frequently. In other words, you should always try to encapsulate what varies.* Page 226.
 
 Another thing to make your classes easy to change and not dependent is to have one reason to change, to achieve that you need to make your class do only one thing and do it well.
+
+## Part 2: Give Your Software a 30-minute Workout
+
+In this part, we will talk about how OO principles can really loosen up your application. And for the grand finale, you’ll see how higher cohesion can really help your coupling.
+
+In this chapter, the authors changed the design in the first part after analyzing it and trying to apply what we learned in the first part of Encapsulation and others.
+
+So you have to accept the idea of changing the design. Why didn't they do the correct design in the beginning? They wanted to prove that the design they showed you would be very good at a certain time, and it would not be easy for you to believe that it did not meet the purpose and needed modifications and additional work.
+
+Design is iterative... and you have to be willing to change your own designs, as well as those that you inherit from other programmers.
+
+Here we can feel the benefit of peer programming and that it helps us not to be completely impressed with our design, but there is criticism from the other side, which drives us to continuous development.
+
+![p1](https://github.com/0xGhazy/0xGhazy/assets/60070427/dcefd364-5b76-4a3a-8897-43b123804b0e)
+
+By encapsulating what varies, you make your application more flexible, and easier to change.
+
+When you have a set of properties that vary across your objects, use a collection, like a `Map`, to store those properties dynamically.
+
+You’ll remove lots of methods from your classes, and avoid having to change your code when new properties are added to your app
+
+here we can use `Map<?>` instead of adding properties data members to the `InstrumentSpec` class.
+
+the design will be like this:
+![p2](https://github.com/0xGhazy/0xGhazy/assets/60070427/4a2188af-230e-4b8f-b01a-ae1bf3b5e366)
+
+we can access the properties from the class:
+```java
+instrument.getSpec().getProperty(“builder”);
+```
+
+*Most good designs come from analysis of bad designs. Never be afraid to make mistakes and then change things around.*
+
+Now, we ned to know about cohesion and cohesive class.
+
+`cohesive class` *A cohesive class does one thing really well and does not try to do or be something else.* Page 269.
+
+`Cohesion` *measures the degree of connectivity among the elements of a single module, class, or object. The higher the cohesion of your software is, the more well-defined and related the responsibilities of each individual class in your application. Each class has a very specific set of closely related actions it performs.* Page 269.
+
+It's about how closely related the functionality of a class is in an application, module, or object. cohesion adds reusability and is easy to change.
+
+**The more cohesive your software is, the looser the coupling between classes.**
+
+At the end of this chapter, I would like to end it with the part I liked the most in the chapter, which is the question of **when is the design good enough and stop developing and improving?**
+
+*Sometimes you just have to stop designing because you run out of time... or money... and sometimes you just have to recognize you’ve done a good enough job to move on. Spending hours trying to write “`perfect software`” is a waste of time; spending lots of time writing great software and then moving on, is sure to win you more work, big promotions, and loads of cash and accolades* Page 274.
+
+it's hard to know when to stop, but we can say in general if our software does what it is supposed to do, it has a flexible and cohesive design, and customers are happy with it. we will be ready to move on to a new project.
 
 ---
