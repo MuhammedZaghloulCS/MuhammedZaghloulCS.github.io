@@ -23,7 +23,8 @@ The Authors provide an approach for writing a great software with a simple steps
 **2. Apply basic OO principles to add flexibilities.**
 **3. Strive for a maintainable reusable design.**
 
-In this chapter the authors learn me a new thing about *Encapsulation*, we can use it not only for information hiding, but also we can use it to remove duplicated codes. in the following code snippet we have the Guitar class that used in a *ArrayList <Guitar> search(Guitar guitar)* that implemented to take each class data member and compare with the client needs. 
+In this chapter the authors learn me a new thing about *Encapsulation*, we can use it not only for information hiding, but also we can use it to remove duplicated codes. in the following code snippet we have the Guitar class that used in a *ArrayList <Guitar> search(Guitar guitar)*
+That implemented to take each class data member and compare with the client needs. 
 
 ```java
 public class Guitar {  
@@ -208,7 +209,7 @@ at the end of this chapter remember that **rewriting code takes a lot more time 
 
 # Chapter 5: Good design = flexible software
 
-in this chapter authors will revisit the change concept that as we mentioned above its the only constant in our world :). we will talk about how to make your software more flexible and reusable, applays OO principles to achieve cohesion, and more. . .
+In this chapter authors will revisit the change concept that as we mentioned above its the only constant in our world :). we will talk about how to make your software more flexible and reusable, applays OO principles to achieve cohesion, and more. . .
 
 ## Part 1: Nothing Ever Stays the Same
 
@@ -294,3 +295,35 @@ At the end of this chapter, I would like to end it with the part I liked the mos
 it's hard to know when to stop, but we can say in general if our software does what it is supposed to do, it has a flexible and cohesive design, and customers are happy with it. we will be ready to move on to a new project.
 
 ---
+
+# Chapter 6: Solving really big problems
+
+In this chapter we will talk about the introduction to building big applications, I really love this chapter. It makes me feel good and excited about reading it.
+
+We start by introducing how to solve big problems, You solve big problems the same way you solve small problems. As the big problem is just a set of small problems. so we just divide the big problems into small functional pieces and deal with each piece individually.
+
+Dealing with big problems doesn't really require special magic tools or information. we can use the concepts that we use to solve small problems such as Encapsulation, coding against interfaces, writing use cases, keep it simple and able to change easily.
+
+We need a lot more information to understand what we want to build then we can start writing the requirement list and use cases. We can gain more information by determining what our system is like (commonality/similar) and What is the system not like (variability/different).
+
+After figuring out what is our system like and what is not, we can figure out what are features of our system are, Features are just a high-level description of something a system needs to do. Features and requirements are the same thing for some people and are not for others. we can say features are “big things” that lots of requirements combine to satisfy. That's what I prefer.
+
+Use cases don’t always help you see the big picture, We need to keep our attention to get the big picture only without unnecessary details for now. So we can start drawing the *Use Case Diagram* we draw it when we need to know what a system does, but don’t want to get into all the detail that use cases require. here is an example of a use case diagram in the image below:
+
+![image-2](https://github.com/0xGhazy/0xGhazy/assets/60070427/eba869ee-e38d-4d1b-b7fd-fd4537c2a14a)
+
+A use case diagram is a blueprint for the system we wanna build, With a use case diagram, you’ll never forget about the big picture. identifying the features as we do before we can check them against the diagram to make sure it's complete.
+
+Domain analysis lets you check your designs, and still speak the customer’s language, we’d never be sure we were building the right thing if we started talking about classes and variables. Here is an example of domain analysis:
+
+![image-3](https://github.com/0xGhazy/0xGhazy/assets/60070427/7a2450b3-6d04-4ddc-b791-d42bf549862b)
+
+**Domain Analysis**: The process of identifying, collecting, organizing, and representing the relevant information of a domain, based upon the study of existing systems and their development histories, knowledge captured from domain experts, underlying theory, and emerging technology within a domain.
+
+Don’t forget who your customer really is, This is great advice at least for me. a lot of time I work on a project and get some thoughts about what if my customer is a developer. I need to add some features to make developers able to integrate my calculator into their systems 😃, I get a lot of work to do even if this project is small or big, it's maybe failed because additional features are not required for your real system users. Domain analysis helps you avoid building parts of a system that aren’t your job to build.
+
+A design pattern is just a way to design the solution for a particular type of problem. So design patterns don’t go directly into your code, they first go into your BRAIN. we study them and learn how they were implemented and when to use them and when we can't use them, because each design pattern has its own trade-offs.
+
+Our chapter is done now, I would like to document this moment right now. I was writing these chapter notes while I'm in the local cafeteria beside the Nile River and I asked for a coffee it was so bad but it cost 10 LE so it's fair 😁. See you in the next chapters. 
+
+--- 
