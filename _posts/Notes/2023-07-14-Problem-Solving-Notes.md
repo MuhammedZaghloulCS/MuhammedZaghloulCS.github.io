@@ -10,7 +10,7 @@ categories:
 toc: true
 ---
 
-# Dutch National Flag algorithm (DFA)
+# 1- Dutch National Flag algorithm (DFA)
 
 **Problem - Leetcode 75. Sort Colors**
 ```
@@ -68,4 +68,15 @@ class Solution {
 }
 ```
 
+---
+# 2- Getting the sum of numbers fromm 0 to N
+
+This code helps me to get the missing numbers from an array of unique integers with missing numbers.
+
+**Code**
+```java
+    int n = nums.length;
+    // calculate the sum of all the numbers in the array. O(1)
+    int numsSum = n * (n + 1) / 2;
+```
 ---
