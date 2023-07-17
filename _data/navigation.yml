@@ -1,16 +1,12 @@
 # main links
 main:
-  - title: "Learning Notes"
-    url: /categories/#learning-notes/
-  - title: "Reviews"
-    url: /categories/#reviews/
-  - title: "Graduation Project Diary"
-    url: /categories/#graduation-project-diary/
+  - title: "Android"
+    url: /categories/#android/
+  - title: "Software Engineering"
+    url: /categories/#software-engineering/
   - title: "Projects"
     url: /categories/#projects/
-  - title: "Zoho"
-    url: /categories/#zoho/
-  - title: "Security"
-    url: /categories/#security/
+  - title: "OFF Topics"
+    url: /categories/#off-topics/
   # - title: "Quick-Start Guide"
   # url: https://google.com
